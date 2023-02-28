@@ -1,0 +1,91 @@
+.container {
+    border: solid 1px white;
+    margin-top: 7.5vh;
+    padding: 10px;
+    width: 330px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background: rgb(28, 27, 34);
+}
+
+.inside-container {
+    background: rgb(34, 34, 39);
+    height: 428px;
+    margin-top: 14px;
+    display: block;
+    position: relative;
+    top: 130px;
+    border-radius: 30px
+}
+
+/* button configs */
+
+.inside-container button {
+    margin: 15px;
+    min-width: 50px;
+    min-height: 55px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(42, 42, 49);
+    font-size: 25px;
+}
+
+.inside-container button:hover {
+    transition: 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* display */
+
+.previous-display {
+    position: relative;
+    color: darkolivegreen;
+    display: flex;
+    justify-content: flex-end;
+    top: 50px;
+    right: 40px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.display {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.first-number {
+    color: white;
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+/* colors */ 
+
+.inside-container .AC, .porc, .raiz {
+    color: aqua;
+}
+
+.inside-container .porc {
+    color: aqua;
+}
+
+.inside-container .raiz {
+    color: aqua;
+}
+
+.inside-container .operator {
+    color: brown;
+    font-weight: 900;
+}
+
+.inside-container .del {
+    color: green;
+}
