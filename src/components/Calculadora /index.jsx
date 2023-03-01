@@ -22,6 +22,8 @@ export const Calculadora = () => {
     setDisplay(0)
   }
 
+  /* teste */
+
   const displayResult = () => {
     switch (operator) {
       case '+': {
