@@ -42,12 +42,10 @@
 /* display */
 
 .previous-display {
-    position: relative;
+    position: fixed;
     color: darkolivegreen;
-    display: flex;
-    justify-content: flex-end;
-    top: 50px;
-    right: 40px;
+    top: 120px;
+    right: 235px;
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
