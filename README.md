@@ -1,3 +1,3 @@
-## Primeiro projeto react feito sozinho
+## Primeiro projeto react
 
 react-calculator
