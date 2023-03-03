@@ -1,8 +1,8 @@
 .container {
-    margin-top: 7.5vh;
+    margin-top: 3.5vh;
     padding: 10px;
     width: 330px;
-    height: 650px;
+    height: 623px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
@@ -14,9 +14,8 @@
     height: 430px;
     width: 330px;
     margin-top: 14px;
-    display: block;
     position: fixed;
-    top: 270px;
+    top: 215px;
     border-radius: 30px
 }
 
@@ -42,10 +41,12 @@
 /* display */
 
 .previous-display {
-    position: fixed;
+    position: relative;
     color: darkolivegreen;
-    top: 120px;
-    right: 235px;
+    top: 100px;
+    right: 42px;
+    display: flex;
+    justify-content: flex-end;
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -53,7 +54,7 @@
 
 .display {
     position: relative;
-    top: 120px;
+    top: 100px;
     display: flex;
     justify-content: flex-end;
     
