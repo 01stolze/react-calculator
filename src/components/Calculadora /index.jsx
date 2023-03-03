@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { Display } from '../Display'
 import './styles.css'
 
 export const Calculadora = () => {
@@ -77,13 +78,7 @@ export const Calculadora = () => {
 
   return (
     <div className="container">
-      <div className="previous-display">
-        <h1>{previousDisplay.current}</h1>
-      </div>
-      <div className="display">
-        <h1 className="first-number">{display}</h1>
-      </div>
-
+      <Display previousDisplay={previousDisplay.current} display={display} />
       <div className="inside-container">
         <button
           className="AC"
